@@ -1,0 +1,24 @@
+{
+  "name": "test-task",
+  "version": "1.0.1",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "error": "nodemon index.js getErrors"
+  },
+  "engines": {
+    "node": "^10.15.0"
+  },
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "redis": "^2.6.0-1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
+
+
